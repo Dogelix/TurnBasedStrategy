@@ -1,8 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class GameTags : MonoBehaviour
+namespace Utilites
 {
-    public const string Tile = "Tile";
+    public class GameTags : MonoBehaviour
+    {
+        public const string Tile = "Tile";
+        public const string MapGen = "MapGenerator";
+    }
 }

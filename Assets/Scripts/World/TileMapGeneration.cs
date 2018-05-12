@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class TileMapGeneration : MonoBehaviour
 {
-
 	// Use this for initialization
 	void Start ()
     {
@@ -16,4 +16,9 @@ public class TileMapGeneration : MonoBehaviour
     {
 		
 	}
+
+    public void GenerateMap()
+    {
+
+    }
 }
