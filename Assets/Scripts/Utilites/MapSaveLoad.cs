@@ -8,7 +8,7 @@ namespace Utilites
 { 
     public class MapSaveLoad : MonoBehaviour
     {
-        private const char BLOCK_IDENTIFIER = '#';
+        private const string BLOCK_IDENTIFIER = "#";
         private const char DATA_SPLITTER = '-';
         
         private static string _fileDir;
@@ -79,7 +79,7 @@ namespace Utilites
                             }
                         }
                     }
-                    if(line == "#")
+                    if(line == BLOCK_IDENTIFIER)
                     {
                         break;
                     }
