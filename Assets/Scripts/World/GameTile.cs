@@ -7,8 +7,6 @@ public class GameTile : MonoBehaviour, ITile
 {
     [SerializeField]
     private ETileType tileType;
-    [SerializeField]
-    private GameObject topOfTile;
 
     public ETileType TileType
     {
@@ -18,21 +16,11 @@ public class GameTile : MonoBehaviour, ITile
         }
     }
 
-    Vector3 ITile.TopLocation
+    Vector3 ITile.Location
     {
         get
         {
-            return topOfTile.transform.position;
+            return transform.position;
         }
     }
-
-    void Start ()
-    {
-		
-	}
-	
-	void Update ()
-    {
-		
-	}
 }

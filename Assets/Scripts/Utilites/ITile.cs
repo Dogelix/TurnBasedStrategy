@@ -7,6 +7,6 @@ namespace Utilites
     public interface ITile
     {
         ETileType TileType { get; }
-        Vector3 TopLocation { get; }
+        Vector3 Location { get; }
     }
 }
